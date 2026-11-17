@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romilson e Jarquinaide · 01/05/2027</title>
+<meta name="description" content="Convite de casamento: confirme sua presença e veja a lista de presentes.">
+<meta property="og:title" content="Romilson e Jarquinaide · 01 de maio de 2027">
+<meta property="og:description" content="Confirme sua presença e escolha seu presente.">
+<meta name="theme-color" content="#A9B49A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500&display=swap">
+<style>
+:root{--cream:#F6F1EA;--sage:#A9B49A;--sage-d:#6E7D5E;--terra:#B5653F;--ink:#4A3B2F;--line:#E5DCCD;--soft:#EEE6DA}
+*{box-sizing:border-box}
+html,body{margin:0;background:#E9E4DC}
+body{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink)}
+.app{max-width:460px;margin:0 auto;background:var(--cream);min-height:100vh}
+@media (min-width:600px){.app{margin:24px auto;min-height:auto;border-radius:24px;overflow:hidden;box-shadow:0 0 0 1px var(--line)}}
+.scr{padding:22px 22px 34px}
+.hero{background:var(--sage);height:120px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:14px}
+.mono{width:82px;height:82px;border-radius:50%;background:var(--cream);display:flex;align-items:center;justify-content:center;font-family:'Great Vibes',cursive;font-size:34px;color:var(--terra)}
+.c{text-align:center}
+.verse{font-style:italic;color:var(--sage-d);font-size:16px;margin:0 0 14px;line-height:1.35}
+.nm{font-family:'Great Vibes',cursive;font-size:54px;line-height:1;margin:0;color:var(--terra)}
+.amp{margin:4px 0;color:var(--sage-d);font-size:20px}
+.date{letter-spacing:3px;font-size:19px;font-weight:600;margin:18px 0 4px}
+.p{font-size:18px;margin:0;line-height:1.4}
+.pais{display:flex;gap:10px;margin:18px 0 6px;text-align:center}
+.pais div{flex:1}
+.pais small{display:block;font-family:Inter,sans-serif;font-size:11px;letter-spacing:1.5px;color:var(--sage-d);border-bottom:1px solid var(--sage);padding-bottom:4px;margin-bottom:6px}
+.pais span{font-style:italic;font-size:17px;line-height:1.3}
+.cd{display:flex;justify-content:center;gap:8px;margin:16px 0 4px}
+.cd div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px 10px;min-width:62px}
+.cd b{display:block;font-size:22px;font-weight:600;color:var(--terra)}
+.cd i{font-style:normal;font-family:Inter,sans-serif;font-size:11px;color:var(--sage-d)}
+.btn{display:block;width:100%;padding:13px;border-radius:28px;font-family:inherit;font-size:19px;margin-top:10px;cursor:pointer;border:1px solid var(--sage);background:transparent;color:var(--ink)}
+.btn.pri{background:var(--terra);border-color:var(--terra);color:#fff}
+.btn[disabled]{opacity:.6;cursor:wait}
+.note{font-family:Inter,sans-serif;font-size:12px;color:var(--sage-d);margin:12px 0 0}
+.back{background:none;border:none;color:var(--sage-d);font-family:inherit;font-size:17px;padding:0;cursor:pointer}
+.h{font-size:26px;font-weight:600;color:var(--terra);margin:6px 0 4px}
+.sub{font-size:16px;margin:0 0 14px}
+.cat{display:flex;justify-content:space-between;align-items:center;width:100%;padding:14px 16px;margin:0 0 10px;border-radius:16px;background:#fff;border:1px solid var(--line);font-family:inherit;font-size:19px;color:var(--ink);cursor:pointer;text-align:left}
+.cat small{font-family:Inter,sans-serif;font-size:12px;color:var(--sage-d);text-align:right}
+.cat.pix{border-color:var(--terra)}
+.it{padding:12px 0;border-bottom:1px solid var(--soft)}
+.it .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.it .n{font-size:18px;line-height:1.25}
+.obs{display:block;font-size:14px;color:var(--sage-d);font-style:italic}
+.tag{font-family:Inter,sans-serif;font-size:12px;padding:6px 14px;border-radius:14px;border:none;cursor:pointer;color:#fff;background:var(--sage-d);white-space:nowrap}
+.meta{font-family:Inter,sans-serif;font-size:12px;color:var(--sage-d);margin-top:5px}
+.bar{height:5px;background:var(--soft);border-radius:3px;margin-top:5px}
+.bar i{display:block;height:5px;background:var(--sage);border-radius:3px}
+.lb{font-size:17px;margin:12px 0 4px;display:block}
+.in{width:100%;padding:11px 12px;border-radius:10px;border:1px solid #D9CFC0;background:#fff;font-family:Inter,sans-serif;font-size:16px;color:var(--ink)}
+.er{font-family:Inter,sans-serif;color:#A32D2D;font-size:12px;min-height:15px;margin:3px 0 0}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:8px}
+.box small{font-family:Inter,sans-serif;font-size:12px;color:var(--sage-d);display:block}
+.key{font-size:24px;letter-spacing:1px;margin:2px 0 10px;font-weight:600;user-select:all;-webkit-user-select:all}
+.msg{font-family:Inter,sans-serif;font-size:13px;background:#E3E8DA;padding:8px 12px;border-radius:10px;margin:0 0 10px}
+.warn{background:#F6E3D6}
+.step{display:flex;align-items:center;gap:14px;justify-content:center;margin:6px 0}
+.step button{width:42px;height:42px;border-radius:50%;border:1px solid var(--sage);background:#fff;font-size:22px;cursor:pointer;color:var(--ink)}
+.step b{font-size:26px;min-width:30px;text-align:center}
+.ok{text-align:center;padding-top:50px}
+.load{font-family:Inter,sans-serif;font-size:14px;color:var(--sage-d);text-align:center;padding:30px 0}
+</style>
+</head>
+<body>
+<div class="app" id="app"></div>
+<script>
+/* ======== CONFIGURAÇÃO: cole aqui a URL do Apps Script (termina em /exec) ======== */
+var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwc2GsqcrJ23LLFbAvpNVpmYG54HKU2G2yk31VdqRMeX8EfzFUjuxmyO4i89yFQjMBlTA/exec";
+/* ================================================================================== */
+
+var PIX_CAT = "Pix e vaquinhas";
+var CASAMENTO = new Date("2027-05-01T17:00:00-03:00");
+var EST = null, CARREGANDO = null, flash = "";
+var A = document.getElementById("app");
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function go(h){A.innerHTML=h;window.scrollTo(0,0)}
+function fone(v){var d=v.replace(/\D/g,"").slice(0,11);if(d.length<3)return d;if(d.length<7)return "("+d.slice(0,2)+") "+d.slice(2);return "("+d.slice(0,2)+") "+d.slice(2,d.length-4)+"-"+d.slice(-4)}
+function prazoTxt(){return (EST&&EST.config.prazo)||"01/04/2027"}
+function prazoPassou(){var m=prazoTxt().match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(!m)return false;return new Date()>new Date(m[3]+"-"+("0"+m[2]).slice(-2)+"-"+("0"+m[1]).slice(-2)+"T23:59:59-03:00")}
+function cats(){var o=[],m={};(EST?EST.itens:[]).forEach(function(i){if(i.cat===PIX_CAT)return;if(!m[i.cat]){m[i.cat]={n:i.cat,it:[]};o.push(m[i.cat])}m[i.cat].it.push(i)});return o}
+function pixOps(){return (EST?EST.itens:[]).filter(function(i){return i.cat===PIX_CAT})}
+function resta(i){return i.q-i.esc}
+function porId(id){return (EST?EST.itens:[]).filter(function(i){return i.id===id})[0]}
+
+/* ---------- comunicação com a planilha ---------- */
+function carregar(){
+  CARREGANDO=fetch(SCRIPT_URL).then(function(r){return r.json()}).then(function(j){if(!j.ok)throw new Error(j.msg);EST=j.estado;return EST});
+  return CARREGANDO;
+}
+function enviar(dados){
+  return fetch(SCRIPT_URL,{method:"POST",body:JSON.stringify(dados)}).then(function(r){return r.json()}).then(function(j){if(j.estado)EST=j.estado;return j});
+}
+function esperaLista(cb){
+  if(EST)return cb();
+  go('<div class="scr"><button class="back" onclick="home()">‹ Início</button><p class="load">Carregando a lista de presentes…</p></div>');
+  (CARREGANDO||carregar()).then(cb).catch(function(){CARREGANDO=null;
+    go('<div class="scr"><button class="back" onclick="home()">‹ Início</button><p class="msg warn" style="margin-top:14px">Não foi possível carregar a lista. Verifique sua internet e tente de novo.</p><button class="btn pri" onclick="esperaLista(function(){lista()})">Tentar de novo</button></div>')});
+}
+function ocupado(b,txt){b.disabled=true;b.dataset.t=b.textContent;b.textContent=txt||"Enviando…"}
+function livre(b){if(b){b.disabled=false;b.textContent=b.dataset.t}}
+function falhaRede(b,id){livre(b);var e=document.getElementById(id||"eg");if(e)e.textContent="Não foi possível enviar. Verifique sua internet e tente de novo."}
+
+/* ---------- telas ---------- */
+function home(){
+  var ms=CASAMENTO-new Date(),d=Math.max(0,Math.floor(ms/864e5)),h=Math.max(0,Math.floor(ms%864e5/36e5));
+  go('<div class="hero"><div class="mono">R&amp;J</div></div><div class="scr c">'+
+  '<p class="verse">“Eu e minha casa serviremos ao Senhor.”<br>Josué 24,15</p>'+
+  '<p class="p" style="font-size:17px;margin-bottom:14px">Com a bênção de Deus e a alegria dos nossos corações, convidamos você para celebrar o nosso casamento.</p>'+
+  '<p class="nm">Romilson</p><p class="amp">e</p><p class="nm">Jarquinaide</p>'+
+  '<div class="pais"><div><small>PAIS DO NOIVO</small><span>Diones (em memória)<br>e Francisco</span></div><div><small>PAIS DA NOIVA</small><span>Adelina e João</span></div></div>'+
+  '<p class="date">01 · MAIO · 2027</p><p class="p">Sábado · 17h · Igreja Santo Antônio · Ibimirim</p><p class="p">Recepção: Arena Sunset · Ibimirim</p>'+
+  (ms>0?'<div class="cd"><div><b>'+d+'</b><i>dias</i></div><div><b>'+h+'</b><i>horas</i></div></div>':'')+
+  '<button class="btn pri" onclick="conf()">Confirmar presença</button>'+
+  '<button class="btn" onclick="esperaLista(function(){lista()})">Lista de presentes</button>'+
+  '<p class="note">Confirme sua presença até '+esc(prazoTxt())+'.</p></div>');
+}
+
+function camposPessoa(){
+  return '<label class="lb" for="fn">Seu nome completo</label><input class="in" id="fn" autocomplete="name" maxlength="80"><p class="er" id="en"></p>'+
+  '<label class="lb" for="ft">Telefone (WhatsApp)</label><input class="in" id="ft" inputmode="tel" autocomplete="tel" placeholder="(87) 9 0000-0000" oninput="this.value=fone(this.value)"><p class="er" id="et"></p>';
+}
+function valida(){var a=document.getElementById("fn"),b=document.getElementById("ft"),v=true;
+  document.getElementById("en").textContent="";document.getElementById("et").textContent="";var g=document.getElementById("eg");if(g)g.textContent="";
+  if(a.value.trim().split(/\s+/).length<2){document.getElementById("en").textContent="Digite nome e sobrenome";v=false}
+  var n=b.value.replace(/\D/g,"").length;if(n<10||n>11){document.getElementById("et").textContent="Digite um telefone com DDD";v=false}
+  return v?{nome:a.value.trim(),telefone:b.value}:null}
+function stepper(id,max){return '<div class="step"><button type="button" onclick="mexe(\''+id+'\',-1,'+max+')" aria-label="Menos">−</button><b id="'+id+'">1</b><button type="button" onclick="mexe(\''+id+'\',1,'+max+')" aria-label="Mais">+</button></div>'}
+function mexe(id,d,max){var e=document.getElementById(id);e.textContent=Math.min(max,Math.max(1,(+e.textContent)+d))}
+
+function conf(){
+  go('<div class="scr"><button class="back" onclick="home()">‹ Início</button><p class="h">Confirmar presença</p>'+
+  (prazoPassou()?'<p class="msg warn">O prazo de confirmação foi '+esc(prazoTxt())+', mas ainda dá tempo: confirme abaixo.</p>':'<p class="sub">Confirme até '+esc(prazoTxt())+'.</p>')+
+  '<label class="lb" for="fn">Seu nome completo</label><input class="in" id="fn" autocomplete="name" maxlength="80"><p class="er" id="en"></p>'+
+  '<label class="lb">Quantas pessoas, contando você?</label>'+stepper("qp",20)+
+  '<label class="lb" for="ft">Telefone (WhatsApp)</label><input class="in" id="ft" inputmode="tel" autocomplete="tel" placeholder="(87) 9 0000-0000" oninput="this.value=fone(this.value)"><p class="er" id="et"></p>'+
+  '<button class="btn pri" id="bt" onclick="gravaConf()">Confirmar</button><p class="er" id="eg"></p></div>');
+}
+function gravaConf(){var d=valida();if(!d)return;var b=document.getElementById("bt"),q=+document.getElementById("qp").textContent;ocupado(b);
+  enviar({acao:"confirmar",nome:d.nome,telefone:d.telefone,pessoas:q}).then(function(r){
+    if(!r.ok){livre(b);document.getElementById("eg").textContent=r.msg;return}
+    go('<div class="scr ok"><p class="nm" style="font-size:42px">Presença confirmada!</p><p class="p">'+esc(d.nome.split(" ")[0])+', '+q+(q>1?' pessoas':' pessoa')+'.<br>Nos vemos em 01 de maio.</p>'+
+    (r.atualizado?'<p class="msg" style="margin-top:12px">Este telefone já tinha confirmado. Atualizamos os dados.</p>':'')+
+    '<button class="btn" onclick="esperaLista(function(){lista()})">Ver lista de presentes</button><button class="btn" onclick="home()">Início</button></div>');
+  }).catch(function(){falhaRede(b)});}
+
+function lista(){
+  var h='<div class="scr"><button class="back" onclick="home()">‹ Início</button><p class="h">Lista de presentes</p><p class="sub">Escolha uma categoria.</p>';
+  var cs=cats(),tem=false;
+  cs.forEach(function(c,k){var l=c.it.filter(function(i){return resta(i)>0}).length;if(l)tem=true;
+    h+='<button class="cat" onclick="cat('+k+')"><span>'+esc(c.n)+'</span><small>'+(l?l+(l>1?' itens disponíveis':' item disponível'):'esgotada')+'</small></button>'});
+  if(!tem&&cs.length)h+='<p class="msg">Os presentes da lista já foram escolhidos. Você pode contribuir pelo Pix.</p>';
+  h+='<button class="cat pix" onclick="pixLista()"><span>'+PIX_CAT+'</span><small>'+pixOps().length+' opções</small></button></div>';go(h);}
+
+function cat(k){var c=cats()[k];if(!c)return lista();var vis=c.it.filter(function(i){return resta(i)>0});
+  var h='<div class="scr"><button class="back" onclick="lista()">‹ Categorias</button><p class="h">'+esc(c.n)+'</p>'+(flash?'<p class="msg warn">'+esc(flash)+'</p>':'');flash="";
+  if(!vis.length)h+='<p class="p">Todos os itens desta categoria já foram escolhidos. Você pode contribuir pelo Pix.</p><button class="btn pri" onclick="pixLista()">Ver opções de Pix</button>';
+  vis.forEach(function(i){
+    h+='<div class="it"><div class="row"><span class="n">'+esc(i.nome)+(i.obs?'<span class="obs">'+esc(i.obs)+'</span>':'')+'</span><button class="tag" onclick="escolher(\''+esc(i.id)+'\','+k+')">Escolher</button></div>'+
+    (i.q>1?'<div class="meta">'+i.esc+' de '+i.q+' já escolhidos · restam '+resta(i)+'</div><div class="bar"><i style="width:'+Math.round(i.esc/i.q*100)+'%"></i></div>':'<div class="meta">1 unidade</div>')+'</div>'});
+  go(h+'</div>');}
+
+function escolher(id,k){var i=porId(id);if(!i||resta(i)<=0){flash="Esse item acabou de ser escolhido. Escolha outro.";return cat(k)}var r=resta(i);
+  go('<div class="scr"><button class="back" onclick="cat('+k+')">‹ '+esc(i.cat)+'</button><p class="h">Confirmar presente</p>'+
+  '<div class="box"><span style="font-size:20px">'+esc(i.nome)+'</span>'+(i.obs?'<span class="obs">'+esc(i.obs)+'</span>':'')+'</div>'+
+  (r>1?'<label class="lb">Quantas unidades você vai dar? (restam '+r+')</label>'+stepper("qi",r):'')+
+  camposPessoa()+'<button class="btn pri" id="bt" onclick="gravaPres(\''+esc(id)+'\','+k+')">Confirmar escolha</button><p class="er" id="eg"></p></div>');}
+function gravaPres(id,k){var d=valida();if(!d)return;var e=document.getElementById("qi"),q=e?+e.textContent:1,b=document.getElementById("bt"),i=porId(id);ocupado(b);
+  enviar({acao:"presente",id:id,qtd:q,nome:d.nome,telefone:d.telefone}).then(function(r){
+    if(!r.ok){if(r.codigo==="esgotado"){flash=r.msg;return cat(k)}livre(b);document.getElementById("eg").textContent=r.msg;return}
+    go('<div class="scr ok"><p class="nm" style="font-size:42px">Obrigado, '+esc(d.nome.split(" ")[0])+'!</p><p class="p">Você escolheu <b>'+q+'× '+esc(i.nome)+'</b>.<br>Sua escolha foi registrada.</p>'+
+    '<button class="btn" onclick="cat('+k+')">Voltar para '+esc(i.cat)+'</button><button class="btn" onclick="lista()">Outras categorias</button><button class="btn" onclick="home()">Início</button></div>');
+  }).catch(function(){falhaRede(b)});}
+
+function pixLista(){var h='<div class="scr"><button class="back" onclick="lista()">‹ Categorias</button><p class="h">'+PIX_CAT+'</p><p class="sub">Escolha para o que deseja contribuir.</p>';
+  pixOps().forEach(function(p){h+='<button class="cat" onclick="pixAbre(\''+esc(p.id)+'\')"><span>'+esc(p.nome)+'</span><small>›</small></button>'});go(h+'</div>');}
+function pixAbre(id){var p=porId(id),c=EST.config;
+  go('<div class="scr"><button class="back" onclick="pixLista()">‹ '+PIX_CAT+'</button><p class="h">'+esc(p.nome)+'</p>'+
+  '<p class="sub" style="font-size:15px">1. Copie a chave e faça o Pix no app do seu banco.<br>2. Depois, avise aqui para os noivos saberem quem contribuiu.</p>'+
+  '<div class="box"><small>Chave Pix (CPF)</small><div class="key" id="kv">'+esc(c.chave)+'</div><small>Beneficiário</small><div style="font-size:19px">'+esc(c.beneficiario)+'</div></div>'+
+  '<button class="btn pri" id="cp" onclick="copia()">Copiar chave</button><p class="note">Confira o nome do beneficiário no app do banco antes de confirmar o pagamento.</p>'+
+  '<p class="h" style="font-size:21px;margin-top:22px">Avisar que contribuí</p>'+camposPessoa()+
+  '<label class="lb" for="fv">Valor (opcional)</label><input class="in" id="fv" inputmode="decimal" placeholder="R$ 0,00" maxlength="12"><p class="note" style="margin-top:4px">O valor só aparece para os noivos.</p>'+
+  '<button class="btn" id="bt" onclick="gravaPix(\''+esc(id)+'\')">Avisar que contribuí</button><p class="er" id="eg"></p></div>');}
+function copia(){var b=document.getElementById("cp"),k=EST.config.chave,ok=function(){b.textContent="Chave copiada";b.style.background="var(--sage-d)";b.style.borderColor="var(--sage-d)"},
+  manual=function(){var r=document.createRange();r.selectNodeContents(document.getElementById("kv"));var s=getSelection();s.removeAllRanges();s.addRange(r);
+    try{if(document.execCommand("copy"))return ok()}catch(e){}b.textContent="Chave selecionada: toque e segure para copiar"};
+  try{navigator.clipboard.writeText(k).then(ok,manual)}catch(e){manual()}}
+function gravaPix(id){var d=valida();if(!d)return;var b=document.getElementById("bt"),p=porId(id),v=document.getElementById("fv").value.trim();ocupado(b);
+  enviar({acao:"pix",id:id,nome:d.nome,telefone:d.telefone,valor:v}).then(function(r){
+    if(!r.ok){livre(b);document.getElementById("eg").textContent=r.msg;return}
+    go('<div class="scr ok"><p class="nm" style="font-size:42px">Muito obrigado!</p><p class="p">Sua contribuição para <b>'+esc(p.nome)+'</b> foi registrada.</p><button class="btn" onclick="pixLista()">Outras opções de Pix</button><button class="btn" onclick="home()">Início</button></div>');
+  }).catch(function(){falhaRede(b)});}
+
+home();
+if(SCRIPT_URL.indexOf("http")===0)carregar().then(function(){if(document.querySelector(".hero"))home()}).catch(function(){CARREGANDO=null});
+</script>
+</body>
+</html>
