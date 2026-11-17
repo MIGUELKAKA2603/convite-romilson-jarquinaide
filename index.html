@@ -65,6 +65,7 @@ body{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink)}
 .step b{font-size:26px;min-width:30px;text-align:center}
 .ok{text-align:center;padding-top:50px}
 .load{font-family:Inter,sans-serif;font-size:14px;color:var(--sage-d);text-align:center;padding:30px 0}
+.mapa{display:inline-block;margin-top:6px;font-family:Inter,sans-serif;font-size:13px;color:var(--terra);border:1px solid var(--terra);border-radius:16px;padding:5px 14px;text-decoration:none}
 </style>
 </head>
 <body>
@@ -115,7 +116,9 @@ function home(){
   '<p class="p" style="font-size:17px;margin-bottom:14px">Com a bênção de Deus e a alegria dos nossos corações, convidamos você para celebrar o nosso casamento.</p>'+
   '<p class="nm">Romilson</p><p class="amp">e</p><p class="nm">Jarquinaide</p>'+
   '<div class="pais"><div><small>PAIS DO NOIVO</small><span>Diones (em memória)<br>e Francisco</span></div><div><small>PAIS DA NOIVA</small><span>Adelina e João</span></div></div>'+
-  '<p class="date">01 · MAIO · 2027</p><p class="p">Sábado · 17h · Igreja Santo Antônio · Ibimirim</p><p class="p">Recepção: Arena Sunset · Ibimirim</p>'+
+  '<p class="date">01 · MAIO · 2027</p><p class="p">Sábado · 17h · Igreja Santo Antônio<br>Av. Castro Alves, Centro · Ibimirim</p>'+
+  '<p class="p" style="margin-top:10px">Recepção: Arena Sunset<br>Alto da Floresta · Ibimirim</p>'+
+  '<a class="mapa" href="https://www.google.com/maps/search/?api=1&amp;query=Arena+Sunset+Park+Ibimirim&amp;query_place_id=ChIJcVz29hIjCAcRrmiVuhChP2I" target="_blank" rel="noopener">Ver no mapa</a>'+
   (ms>0?'<div class="cd"><div><b>'+d+'</b><i>dias</i></div><div><b>'+h+'</b><i>horas</i></div></div>':'')+
   '<button class="btn pri" onclick="conf()">Confirmar presença</button>'+
   '<button class="btn" onclick="esperaLista(function(){lista()})">Lista de presentes</button>'+
